@@ -72,6 +72,11 @@ HTML (signup.html):
         <a href="index.html" id="signUpButton">Sign Up</a>
     </div>
 
-    <script src="script.js"></script>
-</body>
+ <script src="script.js"></script>
+    <script>
+        // Add event listener to the Sign Up button
+        document.getElementById('signUpButton').addEventListener('click', function() {
+            // Navigate to index.html
+            window.location.href = 'index.html';
+        });</body>
 </html>
