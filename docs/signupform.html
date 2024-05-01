@@ -64,11 +64,17 @@
                 <input type="text" id="cvc" required>
             </div>
 
-           <!-- Link to index.html -->
-            <a href="index.html"><input type="submit" value="Sign Up"></a>
+        <!-- Button to trigger sign up action -->
+            <button id="signUpButton">Sign Up</button>
         </form>
     </div>
 
     <script src="script.js"></script>
+    <script>
+        // Add event listener to the sign up button to redirect to index.html
+        document.getElementById('signUpButton').addEventListener('click', function() {
+            window.location.href = 'index.html';
+        });
+    </script>
 </body>
 </html>
