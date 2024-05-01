@@ -68,15 +68,12 @@ HTML (signup.html):
 
             <input type="submit" value="Sign Up">
         </form>
-        <!-- Use the existing "Sign Up" button and add an event listener to handle navigation -->
-        <button id="signUpButton">Sign Up</button>
+        <!-- Use the first "Sign Up" button and link it to index.html -->
+        <a href="index.html">
+            <button id="signUpButton">Sign Up</button>
+        </a>
     </div>
 
- <script src="script.js"></script>
-    <script>
-        // Add event listener to the Sign Up button
-        document.getElementById('signUpButton').addEventListener('click', function() {
-            // Navigate to index.html
-            window.location.href = 'index.html';
-        });</body>
+    <script src="script.js"></script>
+</body>
 </html>
